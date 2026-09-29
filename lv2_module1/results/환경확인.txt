@@ -1,0 +1,29 @@
+$ hostname
+pak
+
+$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+
+$ uname -m
+aarch64
+
+
+$ ls -l /dev/ttyACM*
+crw-rw-rw- 1 root dialout 166, 0 Jul 29 22:42 /dev/ttyACM0
+
+
+$ id -nG
+pak adm dialout cdrom floppy sudo audio dip video plugdev netdev lxd
+
